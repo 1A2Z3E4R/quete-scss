@@ -1,0 +1,99 @@
+.fond-orange {
+    background-color: #FF5F01;
+}
+
+.col-md-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    color: #FFF;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+footer ul li a {
+    color: #FFF;
+}
+footer ul li a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ring-1 {
+    border: 3px solid;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.ring-2 {
+    border: 6px solid;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.ring-3 {
+    border: 9px solid;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.ring-1 {
+    border-color: #FF5F01;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.ring-3 {
+    border-color: #FECE0E;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.ring-2 {
+    border-color: #353535;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.ring-2-1 {
+    height: 2rem;
+    width: 2rem;
+}
+
+.ring-2-2 {
+    height: 4rem;
+    width: 4rem;
+}
+
+.ring-2-3 {
+    height: 6rem;
+    width: 6rem;
+}
+
+.ring-2-4 {
+    height: 8rem;
+    width: 8rem;
+}
+
+.ring-2-5 {
+    height: 10rem;
+    width: 10rem;
+}
+
+.ring-2-6 {
+    height: 12rem;
+    width: 12rem;
+}

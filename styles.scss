@@ -1,0 +1,83 @@
+$orange: #FF5F01;
+$jaune: #FECE0E;
+$gris: #353535;
+$blanc: #FFF;
+
+$taille50: 50px;
+$taille200: 200px;
+
+.fond-orange {
+  background-color : $orange;
+}
+
+.col-md-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  ul {
+    li {
+      list-style-type:none;
+      a {
+        color : $blanc;
+        &:hover {
+          text-decoration: none;
+          color : $blanc;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  ul {
+    li {
+      list-style-type:none;
+      a{
+        color: $blanc;
+        &:hover {
+          text-decoration: none;
+          color : $blanc;
+        }
+      }
+    }
+  }
+}
+
+@mixin ring($couleur, $taille) {
+  border-color: $couleur;
+  border-radius: 50%;
+  height: $taille;
+  width: $taille;
+}
+
+@for $i from 1 through 3 {
+  .ring-#{$i} {
+    border: $i * 3px solid;
+    box-shadow : $i * 1px $i * 1px $i * 1px grey ;
+  }
+}
+
+.ring-1 {
+  @include ring($orange, $taille50);
+  margin : 10px;
+}
+
+.ring-3 {
+  @include ring($jaune, $taille200);
+  margin : 10px;
+}
+
+.ring-2 {
+  @include ring($gris, $taille50);
+}
+
+@for $i from 1 through 6 {
+  .ring-2-#{$i} {
+    height: $i * 2rem;
+    width: $i * 2rem;
+  }
+}
+
