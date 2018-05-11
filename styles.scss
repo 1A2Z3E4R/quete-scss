@@ -78,6 +78,7 @@ footer {
   .ring-2-#{$i} {
     height: $i * 2rem;
     width: $i * 2rem;
+    margin-left : $i * -0.5rem;
   }
 }
 

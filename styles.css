@@ -71,29 +71,35 @@ footer ul li a:hover {
 .ring-2-1 {
     height: 2rem;
     width: 2rem;
+    margin-left: -0.5rem;
 }
 
 .ring-2-2 {
     height: 4rem;
     width: 4rem;
+    margin-left: -1rem;
 }
 
 .ring-2-3 {
     height: 6rem;
     width: 6rem;
+    margin-left: -1.5rem;
 }
 
 .ring-2-4 {
     height: 8rem;
     width: 8rem;
+    margin-left: -2rem;
 }
 
 .ring-2-5 {
     height: 10rem;
     width: 10rem;
+    margin-left: -2.5rem;
 }
 
 .ring-2-6 {
     height: 12rem;
     width: 12rem;
+    margin-left: -3rem;
 }
